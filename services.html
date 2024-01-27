@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href="logoo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,100&display=swap');
+</style>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:ital,wght@0,100;1,100&display=swap');
+  </style>
+
+<title>ISLMS</title>
+    <style>
+        body {
+            height: 0;
+            margin: 0;
+        }
+
+        .custom-header {
+            width: 100%;
+            height: 120px;
+            position: fixed;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: white;
+            z-index: 2; 
+            top: 0;
+        }
+
+        .logo {
+            font-size: 200%;
+            color: rgb(22, 36, 22);
+            display: flex;
+            justify-content: space-between;
+            margin-left: 120px;
+            margin-right: 50px;
+            width: 170px;
+            font-family: 'Playfair Display', serif;
+            color: #A2A96D;
+            font-weight:700;
+            
+        }
+        .tagline {
+            font-size: 100%;
+            text-align: center;
+            color: black;
+            margin-left: 120px;
+            color: #A2A96D;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+
+        }
+
+        ul {
+            
+            font-family: 'Poppins', sans-serif;
+            font-weight: 200;
+            list-style-type: none;
+            display: flex;
+            margin-right: 100px;
+            margin-bottom: 55px;
+            padding: 0;
+            
+        }
+
+        ul li {
+            margin-top: 30px;
+            font-size: 18px;
+            margin-right: 20px;
+            color: #000000;
+            font-weight: 600;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: rgb(9, 17, 7);
+            transition: color 0.1s, font-size 0.1s;
+        }
+
+        ul li a:hover {
+            font-size: 1rem;
+            color: #A2A96D;
+        }
+
+        .middlebody {
+            height: calc(100vh - 150px);
+            overflow: hidden;
+            background-image: url(photofc.jpg);
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-repeat: no-repeat;
+            position: relative;
+            z-index: 1; 
+        }
+
+
+
+        .Text {
+            color: rgb(148, 197, 11);
+            margin-left: 200px;
+            font-size: 130%;
+            font-family: 'Poppins', sans-serif;
+            height: 60px;
+        }
+       
+        .btn {
+            display: block;
+            margin: 0 auto;
+            padding: 5px 10px;
+            background-color: #a8c40db0; 
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            transition: background-color 0.3s;
+            position: absolute;
+            margin-left: 625px;
+            margin-right: 100px;
+        }
+
+        .btn:hover {
+            background-color: #68810c; 
+        }
+        #img {
+        width: 50px;
+        height: auto; 
+        position: absolute;
+        left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="custom-header">
+            <div class="logo-container">
+                <div class="logo">ISLMS</div>
+                <div class="tagline">Empowering Learning, Enhancing Access</div>
+            </div>
+            <img id="img" src="logoo.png" alt="">
+
+            <ul>
+                <li><a href="http://127.0.0.1:5500/homepage.html">Home</a></li>
+                <li><a href="http://127.0.0.1:5500/services.html">Services</a></li>
+                <li><a href="http://127.0.0.1:5500/transaction.html">Transaction</a></li>
+                <li><a href="http://127.0.0.1:5500/aboutus.html">About Us</a></li>
+                <li><a href="http://127.0.0.1:5500/staff.html">Staff</a></li>
+                <li><a href="http://127.0.0.1:5500/Contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+ 
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Library</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Poppins:wght@300&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .header {
+            font-family: 'Merriweather', serif;
+            font-size: 44.5px;
+            color: black;
+            text-align: center;
+            margin-top: 8rem;
+            margin-bottom: 10px;
+            padding: 5px;
+            letter-spacing: 1px;
+        }
+
+        .text {
+            font-size: 15px;
+            font-weight: bold;
+            text-align: center;
+            margin-left: 65px;
+            margin-right: 65px;
+            margin-bottom: 20px;
+        }
+
+        .header2 {
+            font-size: 37.5px;
+            color: #71764c;
+            border: 1px #e1d39c;
+            background-color: #e1d39c;
+            text-align: center;
+            margin-top: 13px;
+            margin-bottom: 10px;
+            padding-top: 13px;
+            padding-bottom: 13px;
+            letter-spacing: 1px;
+        }
+
+        .bar {
+            color: solid black;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: stretch;
+            margin-bottom: 20px;
+        }
+
+        form {
+            display: flex;
+            padding: 3px;
+            border: 3px solid #71764c;
+            border-radius: 20px;
+            margin: 5px;
+            width: 100%;
+            max-width: 750px;
+        }
+
+        input[type="search"] {
+            border: none;
+            background: transparent;
+            margin: 0;
+            padding: 7px 8px;
+            font-size: 14px;
+            color: inherit;
+            border-radius: 50px;
+            width: 100%;
+        }
+
+        input[type="search"]::placeholder {
+            color: #71764c;
+        }
+
+        button[type="submit"] {
+            color: #71764c;
+            text-indent: -999px;
+            overflow: hidden;
+            width: 15%;
+            border: 3px solid #71764c;
+            border-radius: inherit;
+            background: transparent
+                url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E")
+                no-repeat center;
+            cursor: pointer;
+            opacity: 0.7;
+        }
+
+        button[type="submit"]:hover {
+            opacity: 100;
+            color: #71764c;
+        }
+
+        button[type="submit"]:focus,
+        input[type="search"]:focus {
+            box-shadow: #71764c;
+            border-color: #4F5334;
+            outline: none;
+        }
+
+        .shelves {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .shelves img {
+            margin-top: 20px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            width: 90%;
+            height: 5%;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .title {
+            width: 100%;
+            height: 50px;
+            background-color: #E1D39C;
+            color: #71764C;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Merriweather';
+            margin-bottom: 20px;
+        }
+
+        .body {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            margin: 0;
+            padding: 0;
+        }
+
+        .column {
+            width: 25%;
+            margin: 10px;
+        }
+
+        .custom-head {
+            font-family: 'Poppins';
+            font-size: 20.5px;
+            border-left: 2px solid #71764C;
+            padding: 1px 20px;
+            margin-top: 15px;
+        }
+
+        .custom-font {
+            font-family: 'Poppins';
+            font-size: 11.6px;
+            height: 10px;
+            border-left: 2px solid #71764C;
+            padding: 5px 20px;
+            display: block;
+        }
+
+        .not-available {
+            color: red;
+        }
+
+        .available {
+            color: green;
+        }
+
+        .box {
+            width: 90%;
+            height: 2px;
+            background-color: #A2A96D;
+            margin-bottom: 20px;
+            margin-left: 5rem;
+            
+        }
+
+        
+
+        
+    </style>
+</head>
+
+<body>
+    <div>
+        <h2 class="header">Library</h2>
+    </div>
+    <div>
+      <p class="text">
+        <center> Reading is one of the best ways to immerse yourself in a new world or to learn something new. Whether you
+            prefer fiction or non-fiction, there's always something new to discover within the pages of a book. So go  
+            ahead, turn that first page, and get ready for a new adventure!  
+        </p></center>
+    </div>
+    <div>
+        <h3 class="header2">Start seeking out the book you're looking for.</h3>
+    </div>
+
+    <br>
+
+    <div class="bar">
+        <form id="searchForm">
+            <input type="search" id="searchInput" placeholder="Search...">
+            <button type="submit">Search</button>
+        </form>
+    </div>
+
+    <div class="shelves">
+        <img src="shelves.jpg" alt="Bookshelves">
+    </div>
+
+    <div class="title">
+        <h1>Book Catalog</h1>
+    </div>
+
+    <div class="body">
+        <div class="column">
+            <div class="custom-head"><strong>10 Ways to Get a Girl</strong></div>
+            <div class="custom-font">by <strong>Lorenzo, Jenna</strong></div>
+            <div class="custom-font"><strong>Availability:</strong> <span class="not-available">Not Available</span>
+            </div>
+            <br>
+            <div class="custom-head"><strong>Calculus</strong></div>
+            <div class="custom-font">by <strong>Lorenzo, Jenna</strong></div>
+            <div class="custom-font"><strong>Availability:</strong> <span class="available">Available</span></div><br>
+    
+            <div class="custom-head"><strong>Earth Life Science</strong></div>
+            <div class="custom-font">by <strong>Lorenzo, Jenna</strong></div>
+            <div class="custom-font"><strong>Availability:</strong> <span class="available">Available</span></div><br>
+    
+            <div class="custom-head"><strong>History of Dwyane</strong></div>
+            <div class="custom-font">by <strong>Lorenzo, Jenna</strong></div>
+            <div class="custom-font"><strong>Availability:</strong> <span class="available">Available</span></div><br>
+    
+            <div class="custom-head"><strong>Life of Rizal in Bagong Baryo</strong></div>
+            <div class="custom-font">by <strong>Lorenzo, Jenna</strong></div>
+            <div   div class="custom-font"><strong>Availability:</strong> <span class="not-available">Not Available</span></div><br>
+    
+            <div class="custom-head"><strong>Soap Number 5</strong></div>
+            <div class="custom-font">by <strong>Lorenzo, Jenna</strong></div>
+            <div class="custom-font"><strong>Availability:</strong> <span class="not-available">Not Available</span></div><br>
+        
+            <div class="custom-head"><strong>Transportation</strong></div>
+            <div class="custom-font">by <strong>Lorenzo, Jenna</strong></div>
+            <div class="custom-font"><strong>Availability:</strong> <span class="available">Available</span></div><br>
+    
+        </div>
+
+        <div class="column">
+
+          <div class="custom-head"><strong>Basic Techniques in Trial</strong></div>
+          <div class="custom-font">by <strong>Gracian, Juan</strong></div>
+          <div class="custom-font"><strong>Availability:</strong> <span class="not-available" id="not-available1">Not Available</span></div><br>
+  
+          <div class="custom-head"><strong>Combi</strong></div>
+          <div class="custom-font">by <strong> Kalaw, JB</strong></div>
+          <div class="custom-font"><strong>Availability:</strong> <span class="available">Available</span></div><br>
+  
+          <div class="custom-head"><strong>Gender Identity</strong></div>
+          <div class="custom-font">by <strong>Lao, Alexa</strong></div>
+          <div class="custom-font"><strong>Availability:</strong> <span class="not-available">Not Available</span></div><br>
+  
+          <div class="custom-head"><strong>Introduction in SQL</strong></div>
+          <div class="custom-font">by <strong> Dwyanesses</strong></div>
+          <div class="custom-font"><strong>Availability:</strong> <span class="available">Available</span></div><br>
+  
+          <div class="custom-head"><strong>Male Reproductive System</strong></div>
+          <div class="custom-font">by <strong> Cesar, James</strong></div>
+          <div class="custom-font"><strong>Availability:</strong> <span class="not-available">Not Available</span></div><br>
+  
+          <div class="custom-head"><strong>Techniques in Business</strong></div>
+          <div class="custom-font">by <strong> Perlas, Arthur</strong></div>
+          <div class="custom-font"><strong>Availability:</strong> <span class="available">Available</span></div><br>
+  
+          <div class="custom-head"><strong>Trial Reviewer</strong></div>
+          <div class="custom-font">by <strong> Lao, Alex</strong></div>
+          <div class="custom-font"><strong>Availability:</strong> <span class="available">Available</span></div><br>
+     
+
+        </div>
+
+        <div class="column">
+
+         
+        <div class="custom-head"><strong>Basic Trial</strong></div>
+        <div class="custom-font">by <strong> S. Joanne</strong></div>
+        <div class="custom-font"><strong>Availability:</strong> <span class="available">Available</span></div><br>
+        
+        <div class="custom-head"><strong>Dinosaur Egg</strong></div>
+        <div class="custom-font">by <strong> Manndii, Thea</strong></div>
+        <div class="custom-font"><strong>Availability:</strong> <span class="not-available">Not Available</span></div><br>
+
+        <div class="custom-head"><strong>Historical of WW</strong></div>
+        <div class="custom-font">by <strong>  Dy, Rs</strong></div>
+        <div class="custom-font"><strong>Availability:</strong> <span class="available">Available</span></div><br>
+   
+        <div class="custom-head"><strong>Java Code</strong></div>
+        <div class="custom-font">by <strong> Dwyanesses</strong></div>
+        <div class="custom-font"><strong>Availability:</strong> <span class="not-available">Not Available</span></div><br>
+
+        <div class="custom-head"><strong>Media Information</strong></div>
+        <div class="custom-font">by <strong> Dy, Rs</strong></div>
+        <div class="custom-font"><strong>Availability:</strong> <span class="not-available">Not Available</span></div><br>
+   
+        <div class="custom-head"><strong>The Silent Symphony</strong></div>
+        <div class="custom-font">by <strong> C, Elh</strong></div>
+        <div class="custom-font"><strong>Availability:</strong> <span class="available">Available</span></div><br>
+
+        </div>
+    </div>
+
+    <div class="box"></div>
+   
+
+</body>
+
+</html>

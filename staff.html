@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href="logoo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,100&display=swap');
+</style>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:ital,wght@0,100;1,100&display=swap');
+  </style>
+
+<title>ISLMS</title>
+    <style>
+        body {
+            height: 0;
+            margin: 0;
+        }
+
+        .custom-header {
+            width: 100%;
+            height: 120px;
+            position: fixed;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: white;
+            z-index: 2; 
+            top: 0;
+        }
+
+        .logo {
+            font-size: 200%;
+            color: rgb(22, 36, 22);
+            display: flex;
+            justify-content: space-between;
+            margin-left: 120px;
+            margin-right: 50px;
+            width: 170px;
+            font-family: 'Playfair Display', serif;
+            color: #A2A96D;
+            font-weight:700;
+            
+        }
+
+        .tagline {
+            font-size: 100%;
+            text-align: center;
+            color: black;
+            margin-left: 120px;
+            color: #A2A96D;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+
+        }
+
+        ul {
+            
+            font-family: 'Poppins', sans-serif;
+            font-weight: 200;
+            list-style-type: none;
+            display: flex;
+            margin-right: 100px;
+            margin-bottom: 55px;
+            padding: 0;
+            
+        }
+
+        ul li {
+            margin-top: 30px;
+            font-size: 18px;
+            margin-right: 20px;
+            color: #000000;
+            font-weight: 600;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: rgb(9, 17, 7);
+            transition: color 0.1s, font-size 0.1s;
+        }
+
+        ul li a:hover {
+            font-size: 1rem;
+            color: #A2A96D;
+        }
+
+        .middlebody {
+            height: calc(100vh - 150px);
+            overflow: hidden;
+            background-image: url(photofc.jpg);
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-repeat: no-repeat;
+            position: relative;
+            z-index: 1; 
+        }
+
+
+
+        .Text {
+            color: rgb(148, 197, 11);
+            margin-left: 200px;
+            font-size: 130%;
+            font-family: 'Poppins', sans-serif;
+            height: 60px;
+        }
+       
+        .btn {
+            display: block;
+            margin: 0 auto;
+            padding: 5px 10px;
+            background-color: #a8c40db0; 
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            transition: background-color 0.3s;
+            position: absolute;
+            margin-left: 625px;
+            margin-right: 100px;
+        }
+
+        .btn:hover {
+            background-color: #68810c; 
+        }
+        #img {
+        width: 50px;
+        height: auto; 
+        position: absolute;
+        left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="custom-header">
+            <div class="logo-container">
+                <div class="logo">ISLMS</div>
+                <div class="tagline">Empowering Learning, Enhancing Access</div>
+            </div>
+            <img id="img" src="logoo.png" alt="">
+
+            <ul>
+                <li><a href="http://127.0.0.1:5500/homepage.html">Home</a></li>
+                <li><a href="http://127.0.0.1:5500/services.html">Services</a></li>
+                <li><a href="http://127.0.0.1:5500/transaction.html">Transaction</a></li>
+                <li><a href="http://127.0.0.1:5500/aboutus.html">About Us</a></li>
+                <li><a href="http://127.0.0.1:5500/staff.html">Staff</a></li>
+                <li><a href="http://127.0.0.1:5500/Contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+ 
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan&family=Poppins:wght@100&display=swap" rel="stylesheet"> 
+
+    <style> 
+     
+        .custom-body {
+            margin: 0;
+            font-size: 30px;
+            font-family: Poppins, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 8rem;
+        }
+
+        img {
+            width: 250px;
+            height: auto;
+            position: relative;
+            left: 1%;  
+      
+            
+        }
+
+        .move-me {
+            width: auto;
+            height: 50px;
+            background-color: #E1D39C;
+            color: #71764C;
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            font-family: weather;
+            margin-top: 8rem;
+        }
+
+        h1 {
+            font-size: 50px;
+        }
+
+        h6 {
+            margin-top: 80px;
+            margin-right: 80px;
+            margin-left: 80px;
+            font-size: 20px;
+            color: #71764C;
+        }
+
+        .box-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 50px;
+            margin-top: 0px;
+        }
+
+        .box {
+            background-color: #E1D39C;
+            height: 400px;
+            width: 350px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+            
+        }
+
+        .box img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            
+        
+        }
+
+        .box-text {
+            text-align: center;
+            font-family: 'League Spartan', sans-serif;
+            font-weight: bold;
+            position: relative;
+            top: 40px;
+        }
+
+    </style>
+    
+</head>
+<body>
+    <div class="custom-body">
+    <div class="move-me">
+        <h1>Our Team</h1>
+    </div>
+
+   <center> <h6>Meet the dedicated team behind the scenes! Our staff comprises passionate professionals committed to ensuring a seamless library experience for you. Get to know the faces driving our library's mission and assisting you with your needs.</h6></center>
+
+    <div class="box-container">
+        <div class="box">
+            <img src="jsfr.jpg" alt="Team Member 1">
+            <div class="box-text">JES FER SACO</div>
+        </div>
+
+        <div class="box">
+            <img src="ced.jpeg" alt="Team Member 2">
+            <div class="box-text">CEDRIC NAVARROSA</div>
+        </div>
+
+        <div class="box">
+            <img src="dns.jpg" alt="Team Member 3">
+            <div class="box-text">DENISE BACHO  </div>
+        </div>
+
+        <div class="box">
+            <img src="gab.jpg" alt="Team Member 4">
+            <div class="box-text">GABRIEL LOPEZ</div>
+        </div>
+
+        <div class="box">
+            <img src="jd.jpg" alt="Team Member 5">
+            <div class="box-text">JOHN DWAYNE PERLAS</div>
+        </div>
+
+        <div class="box">
+            <img src="ramil.jpg" alt="Team Member 6">
+            <div class="box-text">RAMIL SANGUAN</div>
+        </div>
+    </div>
+</body>
+</html>

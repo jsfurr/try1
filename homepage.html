@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href="logoo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,100&display=swap');
+</style>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:ital,wght@0,100;1,100&display=swap');
+  </style>
+
+<title>ISLMS</title>
+    <style>
+        body {
+            height: 0;
+            margin: 0;
+        }
+
+        header {
+            width: 100%;
+            height: 120px;
+            position: fixed;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgb(255, 255, 255);
+            z-index: 2; 
+
+        }
+
+        .logo {
+            font-size: 200%;
+            color: rgb(22, 36, 22);
+            display: flex;
+            justify-content: space-between;
+            margin-left: 120px;
+            margin-right: 50px;
+            width: 170px;
+            font-family: 'Playfair Display', serif;
+            color: #A2A96D;
+            font-weight:700;
+ 
+            
+        }
+
+        .tagline {
+            font-size: 100%;
+            text-align: center;
+            color: black;
+            margin-left: 120px;
+            color: #71764C;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+
+        }
+
+        ul {
+            
+            font-family: 'Poppins', sans-serif;
+            font-weight: 200;
+            list-style-type: none;
+            display: flex;
+            margin-right: 100px;
+            margin-bottom: 55px;
+            padding: 0;
+            
+        }
+
+        ul li {
+            margin-top: 30px;
+            font-size: 18px;
+            margin-right: 20px;
+            color: #000000;
+            font-weight: 600;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: rgb(9, 17, 7);
+            transition: color 0.1s, font-size 0.1s;
+        }
+
+        ul li a:hover {
+            font-size: 1rem;
+            color: #A2A96D;
+        }
+
+        .middlebody {
+            height: calc(100vh - 150px);
+            overflow: hidden;
+            background-image: url(photofc.jpg);
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-repeat: no-repeat;
+            position: relative;
+            z-index: 1; 
+            
+        }
+
+        .imgoverlay {
+            position: absolute;
+            margin-top: 100px;
+            top: 0px;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background-color: rgba(162, 169, 109, 0.5);
+
+        }
+
+        .Text {
+            color: #71764C;
+            font-size: 130%;
+            font-family: 'Poppins', sans-serif;
+            height: 60px;
+        }
+        
+
+        p {
+            font-size: 15px;
+            width: 650px;
+            line-height: 1.5;
+            margin-top: 10px;
+            text-align: center;
+            margin-bottom: 10px; 
+             font-weight: 550;
+            
+
+            font-family: 'Poppins', sans-serif;
+            
+        }
+        .btn {
+            display: inline-block;
+            padding: 5px 10px;
+            background-color: #A2A96D; 
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #68810c; 
+}
+
+        .btn:hover {
+            background-color: #68810c; 
+        }
+        #img {
+        width: 50px;
+        height: auto; 
+        position: absolute;
+        left: 50px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo-container">
+        <div class="logo">ISLMS</div>
+        <div class="tagline">Empowering Learning, Enhancing Access</div>
+    </div>
+
+    <img id="img" src="logoo.png" alt="">
+    <ul>
+        <li><a href="./homepage.html">Home</a></li>
+        <li><a href="./services.html">Services</a></li>
+        <li><a href="./transaction.html">Transaction</a></li>
+        <li><a href="./aboutus.html">About Us</a></li>
+        <li><a href="./staff.html">Staff</a></li>
+        <li><a href="./Contact.html">Contact</a></li>
+    </ul>
+    
+</header>
+
+<div class="middlebody">
+    <div class="imgoverlay"></div>
+</div>
+
+<div class="Text">
+  <center>  <h1>OBTAIN ACCESS TO INFORMATION AND IDEAS</h1> </center> 
+</div>
+
+<center> <p>At Integrated School Library Management System, 
+    we believe that everyone should have the ​rights to access information and ideas. 
+    Our extensive collection and library services are ​designed to make this belief a reality.</p> <center> 
+        <div class="btn-container">
+            <a href="http://127.0.0.1:5500/welcome.html#" class="btn">Read more</a>
+        </div>
+
+
+</body>
+</html>
